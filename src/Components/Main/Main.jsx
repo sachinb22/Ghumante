@@ -102,7 +102,8 @@ const Main = () => {
                 <div className="desc">{description}</div>
 
                 <button className="btn flex">
-                  Details <BsArrowRight className="icon" />
+                  Explore
+                  <BsArrowRight className="icon" />
                 </button>
               </div>
             </div>

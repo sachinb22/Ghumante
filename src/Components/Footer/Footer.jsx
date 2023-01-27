@@ -119,6 +119,14 @@ const Footer = () => {
 
             <div className="footerDiv flex">
               <small>BEST TRAVEL WEBSITE</small>
+              <a href="https://www.hitwebcounter.com" target="_blank">
+                <img
+                  src="https://hitwebcounter.com/counter/counter.php?page=8155910&style=0005&nbdigits=5&type=page&initCount=0"
+                  title="Free Counter"
+                  Alt="web counter"
+                  border="0"
+                />
+              </a>
               <small>Copyright Ghumante. 2023 All right Reserved. </small>
             </div>
           </div>

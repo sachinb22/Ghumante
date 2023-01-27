@@ -7,13 +7,9 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --PrimaryColor: hsl(199, 100%, 33%);
-  --SecondaryColor: hsl(187, 85%, 43%);
-  --gradientColor: linear-gradient(
-    to right,
-    hsl(187, 85%, 43%),
-    hsl(199, 100%, 33%)
-  );
+  --PrimaryColor: #0172af;
+  --SecondaryColor: #74febd;
+  --gradientColor: linear-gradient(to right, #0172af, #74febd);
   --WhiteColor: hsl(0, 0%, 100%);
   --textColor: hsl(240, 4%, 36%);
   --WhiteColorDeam: hsl(0, 0%, 93%);
@@ -33,7 +29,7 @@ li {
 }
 
 .section {
-  padding: 4rem 0 2rem;
+  padding: 2rem 0 2rem;
 }
 .container {
   padding-left: 1.5rem;
@@ -64,7 +60,7 @@ li {
   font-weight: 500;
 }
 .btn:hover {
-  background: var(--SecondaryColor);
+  background: var(--PrimaryColor);
 }
 img,
 video {
@@ -84,7 +80,7 @@ body {
     margin: auto !important;
   }
   .section {
-    padding: 6rem 0 4rem;
+    padding: 3rem 0 3rem;
   }
 }
 @media screen and (min-width: 2560px) {
