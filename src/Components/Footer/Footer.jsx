@@ -9,6 +9,10 @@ import { AiFillInstagram } from "react-icons/ai";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+import ScrollToTop from "react-scroll-to-top";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
+
 const Footer = () => {
   //lets create a react hook to add a scroll animation..
   useEffect(() => {
@@ -18,6 +22,9 @@ const Footer = () => {
   return (
     <>
       <section className="footer">
+        <Tippy content="Hello">
+          <ScrollToTop smooth />
+        </Tippy>
         <div className="videoDiv">
           <video src={video} muted autoPlay loop type="video/mp4"></video>
         </div>

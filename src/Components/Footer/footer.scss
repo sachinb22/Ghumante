@@ -186,6 +186,18 @@
       }
     }
   }
+  .scroll-to-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #0172af, #74febd) !important;
+    &:hover {
+      transform: translateY(-5px);
+    }
+    svg {
+      fill: var(--WhiteColor) !important;
+    }
+  }
 }
 
 @media screen and (min-width: 500px) {

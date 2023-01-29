@@ -177,6 +177,18 @@
   font-size: 10px;
   color: var(--WhiteColor);
 }
+.footer .scroll-to-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #0172af, #74febd) !important;
+}
+.footer .scroll-to-top:hover {
+  transform: translateY(-5px);
+}
+.footer .scroll-to-top svg {
+  fill: var(--WhiteColor) !important;
+}
 
 @media screen and (min-width: 500px) {
   .footer .secContent .footerCard .footerLinks {
